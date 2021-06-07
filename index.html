@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>My Family Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="download.jpg">
+
+  <center>
+    <h1 class="btn btn-primary heading">My Family Image Identification<hr>
+    <center>
+      <div class="names   col-sm-6 col-xs-12"  >Model Is Trained On <br> <div class="btn btn-warning">Father | Mother | Sister | Brother </div> </div>
+
+    </center>
+    <br>
+    </h1>
+<br> <br>
+<p class="btn btn-warning result_para_tag">Family member : 
+  <span id="result_name"></span> 
+</p>
+
+<br><br>
+<p class="btn btn-warning result_para_tag">Accuracy : 
+  <span id="result_accuracy"></span> 
+</p>
+
+<br><br>
+
+<button onclick="take_snap()" class="btn btn-success">Take Picture</button>
+  </center>
+
+
+  <div class="footer">
+    Developed by- Jayanth sai
+  </div>
+  
+<script src="main.js"></script>
+</body>
+
+</html>
